@@ -23,19 +23,18 @@
 
     <TextView
         android:id="@+id/questionTextView"
-        android:layout_width="268dp"
-        android:layout_height="109dp"
+        android:layout_width="315dp"
+        android:layout_height="181dp"
         android:text="This is for the Question"
-        android:textColor="@color/white"
-        android:textSize="23sp"
-        android:textStyle="bold"
         android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.254" />
+        app:layout_constraintVertical_bias="0.269" />
 
     <Button
         android:id="@+id/option1Button"
@@ -49,7 +48,7 @@
         app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.463" />
+        app:layout_constraintVertical_bias="0.481" />
 
     <Button
         android:id="@+id/option2Button"
@@ -74,10 +73,9 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78" />
+        app:layout_constraintVertical_bias="0.768" />
 
     <Button
         android:id="@+id/option4Button"
